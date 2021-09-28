@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(255,0,0,0.23153011204481788) 100%); */
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url('background.jpg');
+    background-size: cover;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+.content{
+    margin-top: 17%;
+    /* border: 3px solid black; */
+    box-shadow: 0px 0px 30px;
+    width: 60%;
+    text-align: center;
+    border-radius: 30px;
+    background: rgb(227,160,60);
+    background: radial-gradient(circle, rgba(226, 199, 67, 0.712) 0%, rgb(227, 160, 60) 100%);
+    z-index: 1000;
+}
+
+input{
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 0;
+}
+
+.heading{
+    font-size: 250%;
+    font-family: 'Grechen Fuemen', cursive;
+    font-weight: 900;
+    background: linear-gradient(to right, #b1dfdf 0%, #330867 100%);
+    /* background: -webkit-linear-gradient(90deg, rgb(46, 174, 248) 0%, rgb(248, 8, 0) 100%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content h3{
+    color: white;
+    font-family: 'Gluten', cursive;
+    font-size: 22px;
+}
+
+.next-btn{
+    padding: 2%;
+    font-size: 23px;
+    font-family: 'Grechen Fuemen', cursive;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    background-color:  rgb(78, 161, 216);
+    margin: 3%;
+    transition: all .3s;
+}
+
+.next-btn:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 30px;
+    background-color: rgb(31, 146, 223);
+}
